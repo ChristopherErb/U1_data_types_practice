@@ -92,6 +92,8 @@ console.log(array1[2], array2[1][1], array3[1][1][1])
 
 let array4 = ['a', 'b', 'c', 'd', 'e'];
 
+console.log(array4[2])
+
 /*
  * Prompt 3:
  *
