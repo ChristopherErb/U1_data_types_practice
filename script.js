@@ -44,6 +44,8 @@ ${var1} multiplied by three is ${var1 * 3}.\n\
 ${var1} divided by seven is ${var1 / 7}. \n
 ${var1}'s modulus two is ${var1 % 2} \n \n`)
 
+
+
 /*
  * Prompt 4:
  *
@@ -92,7 +94,7 @@ console.log(array1[2], array2[1][1], array3[1][1][1])
 
 let array4 = ['a', 'b', 'c', 'd', 'e'];
 
-console.log(array4[2])
+console.log(array4[array4.length - 2])
 
 /*
  * Prompt 3:
@@ -123,8 +125,3 @@ console.log(cathleen)
 kristyn.splice(2, 1, "Oakland")
 console.log(kristyn)
 
-
-//.splice()  Add, Delete, Rename items
-//3 arguments,  Start, how far to go, what to do
-//fruits.splice(0, 1, "fuji apple")
-//console.log(fruits);
