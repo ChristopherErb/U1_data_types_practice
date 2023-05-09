@@ -7,7 +7,7 @@
 
 const myFavoriteSong = "????"
 
-console.log(`My favorite song is ${myFavoriteSong}`)
+console.log(`My favorite song is ${myFavoriteSong}\n`)
 
 /*
  * Prompt 2:
@@ -42,7 +42,7 @@ console.log(`${var1} plus five equals ${var1 +5}.\n
 Eight subtracted from ${var1} is ${var1 - 8}.\n
 ${var1} multiplied by three is ${var1 * 3}.\n\ 
 ${var1} divided by seven is ${var1 / 7}. \n
-${var1}'s modulus two is ${var1 % 2}`)
+${var1}'s modulus two is ${var1 % 2} \n \n`)
 
 /*
  * Prompt 4:
@@ -53,9 +53,13 @@ ${var1}'s modulus two is ${var1 % 2}`)
  *
  * Create a variable called fullName and use addition to combine your firstName
  * and lastName variables.
- * Run a console.log that says 'hello my name is..." with your fullName. 
- */
+ * Run a console.log that says 'hello my name is..." with your fullName. */
 
+let firstName = "Chris"
+let lastName = "Erb"
+let fullName = firstName + " " + lastName
+
+console.log(`Hello, my name is ${fullName}`)
 
 /* Arrays */
 
