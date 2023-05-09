@@ -34,6 +34,16 @@ console.log(`My cat's name is ${catName}, he is ${catAge}, and he is ${catColor}
  *   - calculate the remainder of dividing your variable by 2
  */
 
+
+
+const var1 = 11
+
+console.log(`${var1} plus five equals ${var1 +5}.\n
+Eight subtracted from ${var1} is ${var1 - 8}.\n
+${var1} multiplied by three is ${var1 * 3}.\n\ 
+${var1} divided by seven is ${var1 / 7}. \n
+${var1}'s modulus two is ${var1 % 2}`)
+
 /*
  * Prompt 4:
  *
