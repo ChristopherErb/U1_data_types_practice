@@ -108,9 +108,23 @@ let cathleen = ['Cathleen', 186, 'New York'];
 // Cathleen decides that Thom can't be named "Thom" anymore. Remove "Thom" from
 // the thom array and replace it with "Tom".
 
+thom.splice(0, 1, "Tom")
+console.log(thom)
+
 // Karolin just had her birthday; change Karolin's array to reflect her being
 // a year older.
+karolin.splice(1, 1, 17)
+console.log(karolin)
 
 // Change Cathleen's hometown from New York to "Gotham City".
-
+cathleen.splice(2, 1, "Gotham City")
+console.log(cathleen)
 // Remove "Pittsburgh" from Kristyn's array and add "Oakland".
+kristyn.splice(2, 1, "Oakland")
+console.log(kristyn)
+
+
+//.splice()  Add, Delete, Rename items
+//3 arguments,  Start, how far to go, what to do
+//fruits.splice(0, 1, "fuji apple")
+//console.log(fruits);
